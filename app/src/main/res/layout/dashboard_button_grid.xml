@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Tasker">
+    <Button
+        android:id="@+id/btn_add_task"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/dashboard_button"
+        android:text="@string/btnLabel_add_task"
+        android:paddingVertical="20dp"
+        android:layout_marginBottom="5dp"
+
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+
+        app:icon="@drawable/ic_baseline_add_alert_24"
+        app:iconGravity="textStart"
+        app:iconSize="35sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_pending_tasks"
+            android:background="@drawable/dashboard_button"
+            app:backgroundTint="@null"
+            android:paddingVertical="20dp"
+            android:layout_marginEnd="2.5dp"
+
+            android:text="Pending"
+            android:textStyle="bold"
+            android:textSize="18sp"
+
+            app:icon="@drawable/ic_baseline_pending_actions_24"
+            app:iconSize="25sp"
+            app:iconGravity="textStart"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btn_archived_task"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/dashboard_button"
+            app:backgroundTint="@null"
+            android:paddingVertical="20dp"
+            android:layout_marginStart="2.5dp"
+
+            android:text="Archive"
+            android:textStyle="bold"
+            android:textSize="18sp"
+
+            app:icon="@drawable/ic_baseline_archive_24"
+            app:iconSize="25sp"
+            app:iconGravity="textStart"/>
+    </LinearLayout>
+</LinearLayout>

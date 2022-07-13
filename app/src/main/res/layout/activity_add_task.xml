@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTask"
+    android:background="@color/cream"
+    style="@style/Tasker">
+
+    <include layout="@layout/submit_back_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/toolbar">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/task_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:ems="10"
+            app:backgroundTint="@color/cafenoire"
+            android:textColorHint="@color/cafenoire"
+            android:textColor="@color/cafenoire"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:inputType="text"
+            android:paddingHorizontal="20dp"
+            android:textCursorDrawable="@drawable/cursor"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/task_details"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:ems="10"
+            app:backgroundTint="@color/cafenoire"
+            android:textColorHint="@color/cafenoire"
+            android:textColor="@color/cafenoire"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:paddingHorizontal="20dp"
+            android:textSize="18sp"
+            android:hint="Start Typing"
+            android:textCursorDrawable="@drawable/cursor"/>
+
+        <LinearLayout
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/startDate_til"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Start Date"
+                android:layout_marginHorizontal="20dp"
+                app:endIconDrawable="@drawable/ic_baseline_calendar_month_24"
+                app:endIconMode="custom"
+                android:textColorHint="@color/cafenoire"
+                app:hintTextColor="@color/cafenoire"
+                app:hintTextAppearance="@style/Custom_HintStyle"
+                style="@style/Custom_boxStyle">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColorHint="@color/cafenoire"
+                    android:textColor="@color/cafenoire"
+                    android:inputType="none"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/endDate_til"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="End Date"
+                android:layout_marginHorizontal="20dp"
+                app:endIconDrawable="@drawable/ic_baseline_calendar_month_24"
+                app:endIconMode="custom"
+                android:textColorHint="@color/cafenoire"
+                app:hintTextColor="@color/cafenoire"
+                app:hintTextAppearance="@style/Custom_HintStyle"
+                style="@style/Custom_boxStyle">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColorHint="@color/cafenoire"
+                    android:textColor="@color/cafenoire"
+                    android:inputType="none"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            >
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
