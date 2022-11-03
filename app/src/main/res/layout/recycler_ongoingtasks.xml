@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ongoing_task_card"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    android:translationZ="5dp"
+    android:background="@drawable/ongoin_task_layout"
+    android:paddingVertical="20dp"
+    android:padding="20dp"
+    android:layout_margin="20dp"
+    style="@style/Tasker">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="120dp"
+        android:layout_weight="10"
+        android:layout_marginEnd="10dp"
+        android:paddingVertical="10dp">
+
+        <TextView
+            android:id="@+id/ongoing_task_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="20dp"
+            android:text=""
+            android:textColor="@color/cafenoire"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ongoing_task_started"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ongoing_task_title"
+            android:text=""
+            android:textColor="@color/cafenoire"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/ongoing_task_end"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ongoing_task_started"
+            android:textColor="@color/cafenoire"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/set_finish_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/gradient_button"
+        android:elevation="5dp"
+        android:stateListAnimator="@null"
+        android:text="@string/label_finished_early"
+        android:textAlignment="textStart"
+        android:textColor="@color/cafenoire"
+        android:translationZ="3dp"
+        app:icon="@drawable/ic_baseline_check_24"
+        app:iconGravity="textEnd" />
+</LinearLayout>

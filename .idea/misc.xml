@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.24114583333333334" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1535" />
+        <entry key="app/src/main/res/drawable/action_bar_selector.xml" value="0.154" />
+        <entry key="app/src/main/res/drawable/bg_roung.xml" value="0.1535" />
+        <entry key="app/src/main/res/drawable/cornered.xml" value="0.1535" />
+        <entry key="app/src/main/res/drawable/cursor.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/dashboard_button.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/gradient.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/gradient_button.xml" value="0.154" />
+        <entry key="app/src/main/res/drawable/gradient_color.xml" value="0.1535" />
+        <entry key="app/src/main/res/drawable/ic_archive.xml" value="0.1525" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_alert_24.xml" value="0.154" />
+        <entry key="app/src/main/res/drawable/ic_baseline_archive_24.xml" value="0.154" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1525" />
+        <entry key="app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.1525" />
+        <entry key="app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_pending_actions_24.xml" value="0.154" />
+        <entry key="app/src/main/res/drawable/ic_baseline_restore_24.xml" value="0.1065" />
+        <entry key="app/src/main/res/drawable/ic_dashboard.xml" value="0.1535" />
+        <entry key="app/src/main/res/drawable/ic_edit.xml" value="0.154" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.1535" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1535" />
+        <entry key="app/src/main/res/drawable/ic_notifications.xml" value="0.1535" />
+        <entry key="app/src/main/res/drawable/ic_undraw_loading_re_5axr.xml" value="0.154" />
+        <entry key="app/src/main/res/drawable/ic_undraw_void__3_ggu.xml" value="0.154" />
+        <entry key="app/src/main/res/drawable/ongoin_task_layout.xml" value="0.11" />
+        <entry key="app/src/main/res/drawable/selector_menu_bar.xml" value="0.154" />
+        <entry key="app/src/main/res/drawable/singularity.xml" value="0.154" />
+        <entry key="app/src/main/res/layout-v29/activity_add_task.xml" value="0.2125" />
+        <entry key="app/src/main/res/layout/activity_add_task.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_archive.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_edit_task.xml" value="0.2125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2125" />
+        <entry key="app/src/main/res/layout/activity_pending.xml" value="0.2125" />
+        <entry key="app/src/main/res/layout/activity_task_view.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/archived_list.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/back_toolbar.xml" value="0.2125" />
+        <entry key="app/src/main/res/layout/content_add_task.xml" value="0.2125" />
+        <entry key="app/src/main/res/layout/dashboard_button_grid.xml" value="0.2125" />
+        <entry key="app/src/main/res/layout/delete_prompt.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/discard_changes_prompt.xml" value="0.2125" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.2125" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2125" />
+        <entry key="app/src/main/res/layout/fragment_notification.xml" value="0.2125" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.2125" />
+        <entry key="app/src/main/res/layout/main_bar.xml" value="0.2125" />
+        <entry key="app/src/main/res/layout/multi_toolbar.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/notification_task_lst.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/pending_item_list.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/recycler_notification.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/recycler_ongoingtasks.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/submit_back_toolbar.xml" value="0.2125" />
+        <entry key="app/src/main/res/menu/bn_menu.xml" value="0.2125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2125" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

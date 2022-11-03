@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="15dp"
+    android:layout_marginTop="15dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/singularity"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/lock_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+                        android:src="@drawable/ic_baseline_lock_24"
+            app:tint="@color/cafenoire" />
+
+        <TextView
+            android:id="@+id/archived_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Task Title"
+            android:layout_toEndOf="@id/lock_icon"
+            android:textColor="@color/cafenoire"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/archived_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/archived_title"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20sp"
+            android:text="Details"
+            android:textColor="@color/cafenoire"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/archived_date_finished"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/archived_details"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Date"
+            android:textColor="@color/cafenoire"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:id="@+id/btn_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/archived_date_finished"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gradient_button"
+            android:orientation="horizontal"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp">
+
+            <ImageView
+                android:id="@+id/restore_btn"
+                android:layout_width="30dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_baseline_restore_24"
+                app:tint="@color/cafenoire" />
+
+            <ImageView
+                android:id="@+id/delete_btn"
+                android:layout_width="30dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_delete"
+                app:tint="@color/cafenoire" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

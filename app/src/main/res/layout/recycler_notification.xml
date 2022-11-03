@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="15dp"
+    android:backgroundTint="@android:color/transparent"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_button"
+
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/image_view"
+            android:src="@drawable/ic_baseline_notifications_24"/>
+
+        <TextView
+            android:id="@+id/task_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/image_view"
+            android:text="Task Title"
+            android:textColor="@color/cafenoire"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/deadline"
+            android:textColor="@color/cafenoire"
+            android:text="Deadline"
+            android:textSize="12sp"
+            android:layout_toEndOf="@id/image_view"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5sp"
+            android:layout_below="@id/task_name"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

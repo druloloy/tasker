@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream"
+    tools:context=".GraphFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Week"
+            android:textSize="35sp"
+            android:textColor="@color/cafenoire"
+            android:textFontWeight="700"
+            android:layout_marginBottom="22sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="October 22-29"
+            android:textColor="@color/cafenoire"
+            android:textSize="22sp"
+            android:textFontWeight="700"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_baseline_stars_24"
+                android:layout_marginEnd="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="69 Task Tokens"
+                android:textColor="@color/cafenoire"
+                android:textSize="18sp"
+                android:textFontWeight="700"
+                />
+        </LinearLayout>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/barchart" />
+
+    </LinearLayout>
+
+</RelativeLayout>

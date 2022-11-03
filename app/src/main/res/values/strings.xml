@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tasker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btnLabel_add_task">Add Task</string>
+    <string name="ongoing_task_note">Should be finished until </string>
+    <string name="empty_ongoing_tasks">You deserve a break, my friend!</string>
+    <string name="title_activity_add_task">AddTask</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="label_finished_early">Finish</string>
+    <string name="title_activity_pending_task">Pending</string>
+    <string name="title_activity_archived_task">Archived</string>
+    <string name="empty_archived">No archived tasks here.</string>
+    <string name="empty_pending">No pending tasks here.</string>
+</resources>
